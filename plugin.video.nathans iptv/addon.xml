@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.nathansiptv" name="nathansiptv" version="1.0.9" provider-name="nathan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.xbmc-israel" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">iptv provided by nathan any issues email na8098@googlemail.com</summary>
+    <description lang="en">Live tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
